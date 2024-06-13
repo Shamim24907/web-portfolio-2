@@ -1,5 +1,9 @@
 body{
     font-family: "Outfit", sans-serif;
+    margin: 20px;
+}
+p{
+    color: dimgray;
 }
 .im{
     color: darkgoldenrod;
@@ -14,5 +18,59 @@ body{
     padding-left: 2%;
 }
 .half-width img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+section{
+    height: 600px;
+    padding-bottom: 200px;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.change{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.what{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.align{
+    text-align: center;
+    font-weight: 400px;
+}
+.but{
+    background-image: linear-gradient(45deg, rgb(245, 131, 150),rgb(255, 0, 179));
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px 20px;
+    height: 100px;
+    width: 450px;
+    text-align: center;
+}
+.parent{
     width: 100%;
+    margin: auto;
+}
+footer p{
+    text-align: center;
 }
